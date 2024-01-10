@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DistribuidoraAlimentos.DAL\DistribuidoraAlimentos.DAL.csproj" />
+    <ProjectReference Include="..\DistribuidoraAlimentos.DTO\DistribuidoraAlimentos.DTO.csproj" />
+    <ProjectReference Include="..\DistribuidoraAlimentos.Model\DistribuidoraAlimentos.Model.csproj" />
+    <ProjectReference Include="..\DistribuidoraAlimentos.Utility\DistribuidoraAlimentos.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
